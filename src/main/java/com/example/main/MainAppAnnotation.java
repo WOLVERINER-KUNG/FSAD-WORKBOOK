@@ -9,10 +9,10 @@ public class MainAppAnnotation {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        Student student1 = (Student) context.getBean("studentConstructor");
-        Student student2 = (Student) context.getBean("studentSetter");
+        Student s1 = (Student) context.getBean("studentConstructor");
+        Student s2 = (Student) context.getBean("studentSetter");
 
-        System.out.println(student1);
-        System.out.println(student2);
+        System.out.println(s1);
+        System.out.println(s2);
     }
 }

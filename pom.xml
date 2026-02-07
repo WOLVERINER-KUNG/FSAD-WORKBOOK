@@ -3,16 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
     <artifactId>fsad-spring</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>FSAD Spring DI Project</name>
-    <description>Spring DI example project for FSAD</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -27,5 +22,4 @@
             <version>5.3.30</version>
         </dependency>
     </dependencies>
-
 </project>

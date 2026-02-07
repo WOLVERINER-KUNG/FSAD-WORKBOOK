@@ -7,7 +7,6 @@ public class Student {
     private String course;
     private String year;
 
-    // Constructor for Constructor Injection
     public Student(int studentId, String name, String course, String year) {
         this.studentId = studentId;
         this.name = name;
@@ -15,14 +14,8 @@ public class Student {
         this.year = year;
     }
 
-    // Setters for Setter Injection (example)
-    public void setCourse(String course) {
-        this.course = course;
-    }
-
-    public void setYear(String year) {
-        this.year = year;
-    }
+    public void setCourse(String course) { this.course = course; }
+    public void setYear(String year) { this.year = year; }
 
     @Override
     public String toString() {

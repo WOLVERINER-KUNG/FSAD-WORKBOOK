@@ -7,18 +7,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AppConfig {
 
-    // Constructor Injection
     @Bean
     public Student studentConstructor() {
-        return new Student(3, "Bob", "C++", "2024");
+        return new Student(3, "Bob", "C++", "2023");
     }
 
-    // Setter Injection
     @Bean
     public Student studentSetter() {
         Student s = new Student(4, "Eva", "", "");
         s.setCourse("JavaScript");
-        s.setYear("2023");
+        s.setYear("2022");
         return s;
     }
 }

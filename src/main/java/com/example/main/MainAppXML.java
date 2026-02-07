@@ -8,10 +8,10 @@ public class MainAppXML {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        Student student1 = (Student) context.getBean("studentConstructor");
-        Student student2 = (Student) context.getBean("studentSetter");
+        Student s1 = (Student) context.getBean("studentConstructor");
+        Student s2 = (Student) context.getBean("studentSetter");
 
-        System.out.println(student1);
-        System.out.println(student2);
+        System.out.println(s1);
+        System.out.println(s2);
     }
 }
