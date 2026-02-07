@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>fsad-spring</name>
+=======
+	<name>fsad-hibernate</name>
+>>>>>>> 8455b5c4807f9238561c982ad9e0729075e8877c
 	<comment></comment>
 	<projects>
 	</projects>

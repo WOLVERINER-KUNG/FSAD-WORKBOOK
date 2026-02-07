@@ -1,0 +1,2 @@
+These are my project notes.
+Feature update: Added new functionality notes.
